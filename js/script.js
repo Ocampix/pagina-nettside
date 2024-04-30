@@ -1,3 +1,10 @@
+// JavaScript para mostrar/ocultar el menú en vista móvil
+const menuToggle = document.querySelector('.menu-toggle');
+const menu = document.querySelector('.menu');
+menuToggle.addEventListener('click', () => {
+    menu.classList.toggle('open');
+});
+
 /* ------------ navbar --------- */
 var navbar = document.getElementById('navbar');
 

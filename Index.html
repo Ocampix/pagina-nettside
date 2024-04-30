@@ -14,33 +14,32 @@
     <!---------- Header ---------->
     <header class="header">
         <!-- Navbar -->
-        <nav class="navbar" id="navbar">
-            <a class="Nettside_logo" href="">Nettsite</a>
-            <nav class="main-nav" id="main-nav">
-                <ul class="nav-items">
-                    <li class="nav-item"><a href="#sobre_nosotros">Sobre nosotros</a></li>
-                    <li class="nav-item"><a href="#servicios">Servicios</a></li>
-                    <li class="nav-item"><a href="#proyectos">Algunos proyectos</a></li>
-                    <li class="nav-item"><a href="#nuestro_equipo">Nuestro equipo</a></li>
-                    <li class="nav-item"><a href="#contactanos">Contactanos</a></li>
-                </ul>
-            </nav>
-        </nav>
+        <div class="navbar">
+            <div class="logo">Logo</div>
+            <div class="menu">
+                <a href="#">Inicio</a>
+                <a href="#">Nosotros</a>
+                <a href="#">Servicios</a>
+                <a href="#">Contacto</a>
+            </div>
+            <div class="menu-toggle">&#9776;</div>
+        </div>
         <!-- portada -->
         <div class="portada">
             <div class="letras">
-                <h1>Contrata un Equipo de Desarrollo Manejado por Nettsite</h1>
+                <h1>LLevando la presencia digital al siguiente nivel</h1>
                 <p>Para desarrollar tu app móvil, plataforma web o ecommerce. Rápido y fácil.</p>
-                <div class="botones">
-                    <div class="btn_1">boton uno</div>
-                    <div class="btn_2">boton dos</div>
-                </div>
+                <div class="btn_1">boton uno</div>
             </div>
             <div class="foto_logo">
-                <!--foto de nettside-->
             </div>
         </div>
     </header>
+    <svg viewBox="0 0 1620 128" class="svg_1" xmlns="http://www.w3.org/2000/svg">
+        <path
+            d="M1620 0V53.3465L1528.65 79.1847C1518.92 81.9385 1508.89 83.5464 1498.79 83.9757L473.53 127.51C465.858 127.836 458.173 127.482 450.564 126.451L0 65.4176V0H1620Z"
+            fill="#000"></path>
+    </svg>
 
     <!-- Main -->
     <main class="main">
@@ -48,9 +47,9 @@
         <section class="servicios_proyectos" id="proyectos">
             <div class="servicios">
                 <div><img src="/recursos/icons8-imac-50.webp" alt="" srcset=""></div>
-                <h3>Servicio_1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto quasi veniam
-                    doloremque.</p>
+                <h3>El cliente</h3>
+                <p>Escuchamos a nuestros clientes y planteamos soluciones que incrementen valor a sus productos y
+                    alcancen las metas planteadas.</p>
                 <div class="hover-effect">
                     <div class="overlay"></div>
                     <div class="info_producto">
@@ -59,9 +58,9 @@
             </div>
             <div class="servicios">
                 <div><img src="/recursos/icons8-imac-50.webp" alt="" srcset=""></div>
-                <h3>Servicio_1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto quasi veniam
-                    doloremque.</p>
+                <h3>Diseño y planeación</h3>
+                <p>Diseñamos experiencias de acuerdo a las necesidades del cliente, nos encargamos de plasmar tus ideas
+                    en conceptos gráficos claros y atractivos.</p>
                 <div class="hover-effect">
                     <div class="overlay"></div>
                     <div class="info_producto">
@@ -70,9 +69,9 @@
             </div>
             <div class="servicios">
                 <div><img src="/recursos/icons8-imac-50.webp" alt="" srcset=""></div>
-                <h3>Servicio_1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto quasi veniam
-                    doloremque.</p>
+                <h3>Desarrollo</h3>
+                <p>Desarrollamos e integramos soluciones innovadoras de tecnología, que soportan y transforman los
+                    procesos de negocios.</p>
                 <div class="hover-effect">
                     <div class="overlay"></div>
                     <div class="info_producto">
@@ -81,9 +80,9 @@
             </div>
             <div class="servicios">
                 <div><img src="/recursos/icons8-imac-50.webp" alt="" srcset=""></div>
-                <h3>Servicio_1</h3>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam architecto quasi veniam
-                    doloremque.</p>
+                <h3>Entrega</h3>
+                <p>Implementamos sistemas personalizados para empresas que desean una solución tecnológica a su medida,
+                    de fácil y rápido acceso ajustada a sus necesidades.</p>
                 <div class="hover-effect">
                     <div class="overlay"></div>
                     <div class="info_producto">
@@ -104,7 +103,6 @@
             <div class="logo_empresas"><img src="./recursos/client-4.png" alt=""></div>
         </div>
 
-
         <!-- Nuestro equipo -->
         <section class="nuestro_equipo" id="nuestro_equipo">
             <div class="seccion_titulo">
@@ -116,25 +114,25 @@
             <div class="fotos_miembros">
                 <div class="miembro">
                     <div class="miembro_img">
-                        <img src="./recursos/20230528_135147.jpg" class="img-fluid" alt="">
+                        <img src="./recursos/Santiago.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="miembro_info">
-                        <h4>Felix Salgado</h4>
+                        <h4>Santiago Gerardo</h4>
                         <span>Chief Executive Officer</span>
                     </div>
                 </div>
                 <div class="miembro">
                     <div class="miembro_img">
-                        <img src="./recursos/20230528_163854.jpg" class="img-fluid" alt="">
+                        <img src="./recursos/Luis.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="miembro_info">
-                        <h4>Santiago Capinoa</h4>
+                        <h4>Luis Romero</h4>
                         <span>Chief Executive Officer</span>
                     </div>
                 </div>
                 <div class="miembro">
                     <div class="miembro_img">
-                        <img src="./recursos/20230530_103148.jpg" class="img-fluid" alt="">
+                        <img src="./recursos/Mateus.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="miembro_info">
                         <h4>Mateus Nunez</h4>
@@ -143,7 +141,7 @@
                 </div>
                 <div class="miembro">
                     <div class="miembro_img">
-                        <img src="./recursos/IMG-20230430-WA0007.jpg" class="img-fluid" alt="">
+                        <img src="./recursos/Ocampo.jpg" class="img-fluid" alt="">
                     </div>
                     <div class="miembro_info">
                         <h4>Juan Ocampo</h4>
@@ -151,111 +149,36 @@
                     </div>
                 </div>
             </div>
-        </section>
-
-        <!-- preguntas frecuentes -->
-        <section class="preguntas_frecuentes">
-            <div class="seccion_titulo">
-                <h2>F.A.Q</h2>
-                <h3>Preguntas <span>frecuentes</span></h3>
-                <p>Ut possimus qui ut temporibus culpa velit eveniet modi omnis est adipisci expedita at voluptas atque
-                    vitae autem.</p>
-            </div>
-            <div class="lista_preguntas_frecuentes">
-                <div class="container">
-                    <ul>
-                        <li>
-                            <div data-bs-toggle="collapse" class="collapsed question" href="#faq1">Non consectetur a
-                                erat nam at lectus urna duis? <i class="bi bi-chevron-down icon-show"></i><i
-                                    class="bi bi-chevron-up icon-close"></i></div>
-                            <div id="faq1" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet
-                                    non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor
-                                    purus non.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq2" class="collapsed question">Feugiat scelerisque
-                                varius morbi enim nunc faucibus a pellentesque? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq2" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq3" class="collapsed question">Dolor sit amet
-                                consectetur adipiscing elit pellentesque habitant morbi? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq3" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus
-                                    pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit.
-                                    Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis
-                                    tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq4" class="collapsed question">Ac odio tempor orci
-                                dapibus. Aliquam eleifend mi in nulla? <i class="bi bi-chevron-down icon-show"></i><i
-                                    class="bi bi-chevron-up icon-close"></i></div>
-                            <div id="faq4" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum
-                                    velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend
-                                    donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in
-                                    cursus turpis massa tincidunt dui.
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq5" class="collapsed question">Tempus quam
-                                pellentesque nec nam aliquam sem et tortor consequat? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq5" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in
-                                    est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl
-                                    suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
-                                </p>
-                            </div>
-                        </li>
-
-                        <li>
-                            <div data-bs-toggle="collapse" href="#faq6" class="collapsed question">Tortor vitae purus
-                                faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i
-                                    class="bi bi-chevron-down icon-show"></i><i class="bi bi-chevron-up icon-close"></i>
-                            </div>
-                            <div id="faq6" class="collapse" data-bs-parent=".faq-list">
-                                <p>
-                                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo
-                                    integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc
-                                    eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque.
-                                    Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus.
-                                    Nibh tellus molestie nunc non blandit massa enim nec.
-                                </p>
-                            </div>
-                        </li>
-
-                    </ul>
+            <div class="fotos_miembros">
+                <div class="miembro">
+                    <div class="miembro_img">
+                        <img src="./recursos/Aura.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="miembro_info">
+                        <h4>Aura Susana</h4>
+                        <span>Chief Executive Officer</span>
+                    </div>
+                </div>
+                <div class="miembro">
+                    <div class="miembro_img">
+                        <img src="./recursos/Felix.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="miembro_info">
+                        <h4>Felix Salgado</h4>
+                        <span>Chief Executive Officer</span>
+                    </div>
+                </div>
+                <div class="miembro">
+                    <div class="miembro_img">
+                        <img src="./recursos/Jorman.jpg" class="img-fluid" alt="">
+                    </div>
+                    <div class="miembro_info">
+                        <h4>Jorman Curico</h4>
+                        <span>Chief Executive Officer</span>
+                    </div>
                 </div>
             </div>
         </section>
-
 
         <!-- Contactanos -->
         <section class="contactanos" id="contactanos">
@@ -270,48 +193,13 @@
                     <h3>Our Address</h3>
                     <p>A108 Adam Street, New York, NY 535022</p>
                 </div>
-                <div class="col _25 _0">
+                <div class="col _25">
                     <h3>Email Us</h3>
                     <p>contact@example.com</p>
                 </div>
                 <div class="col _25">
                     <h3>Call Us</h3>
                     <p>+1 5589 55488 55</p>
-                </div>
-            </div>
-            <div class="row">
-                <div class="col _50">
-                    <iframe class="mb-4 mb-lg-0"
-                        src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d12097.433213460943!2d-74.0062269!3d40.7101282!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xb89d1fe6bc499443!2sDowntown+Conference+Center!5e0!3m2!1smk!2sbg!4v1539943755621"
-                        frameborder="0" style="border:0; width: 100%; height: 384px;" allowfullscreen=""></iframe>
-                </div>
-                <div class="col _50 _2">
-                    <form action="forms/contact.php" method="post" role="form" class="php-email-form">
-                        <div class="row_peq">
-                            <div class="form-group">
-                                <input type="text" name="name" class="form-control" id="name" placeholder="Your Name"
-                                    required="">
-                            </div>
-                            <div class="form-group">
-                                <input type="email" class="form-control" name="email" id="email"
-                                    placeholder="Your Email" required="">
-                            </div>
-                        </div>
-                        <div class="form-group">
-                            <input type="text" class="form-control" name="subject" id="subject" placeholder="Subject"
-                                required="">
-                        </div>
-                        <div class="form-group">
-                            <textarea class="form-control" name="message" rows="5" placeholder="Message"
-                                required=""></textarea>
-                        </div>
-                        <div class="my-3">
-                            <div class="loading">Loading</div>
-                            <div class="error-message"></div>
-                            <div class="sent-message">Your message has been sent. Thank you!</div>
-                        </div>
-                        <div class="text-center"><button type="submit">Send Message</button></div>
-                    </form>
                 </div>
             </div>
         </section>
